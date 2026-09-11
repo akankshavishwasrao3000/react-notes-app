@@ -28,7 +28,7 @@ const App = () => {
   }
 
   return (
-    <div className='h-full bg-black text-white'>
+    <div className='h-screen bg-black text-white'>
       <form  onSubmit={(e)=>{
         submitHandler(e)
       }} className='flex justify-between items-start p-10'>
